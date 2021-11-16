@@ -4,9 +4,9 @@ MAINTAINER clara.diaz2@alu.uclm.es
 
 RUN mkdir -p /usr/local/app
 
-WORKDIR /usr/local/app
+#WORKDIR /usr/local/app
 
-COPY drop/*.jar /usr/local/app/
+COPY drop/*.jar usr/local/app/
 
 COPY drop/run.sh usr/local/app/run.sh
 
